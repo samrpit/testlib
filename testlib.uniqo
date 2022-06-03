@@ -5,7 +5,7 @@ Project:
  Company: ''
  Copyright: ''
  FormatVersion: 1
- CoreVersion: 7.9.0.0
+ CoreVersion: 8.0.0.0
  Dependencies:
   2:
    Uri: 'urn:QPlatform:CoreBase'
