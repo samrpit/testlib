@@ -254,3 +254,34 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 131.0
+  - Name: FlagUnitedStates1
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 101.44000244140625
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 58.58300018310547
+    - Name: Flag_x5F_United_x5F_States
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 101.44000244140625
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 58.58300018310547
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=6;%PROJECTDIR%/res/Flag_x5F_United_x5F_States.svg"
