@@ -285,3 +285,15 @@ Children:
         Type: BaseDataVariableType
         DataType: ResourceUri
         Value: "ns=6;%PROJECTDIR%/res/Flag_x5F_United_x5F_States.svg"
+  - Name: CheckBox1
+    Type: CheckBox
+    Children:
+    - Name: Checked
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"en-US","Text":"CheckBox1"}
